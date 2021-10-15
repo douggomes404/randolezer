@@ -1,0 +1,109 @@
+@import 'defaults.css';
+@font-face {font-family:Blood ;src:url("Bloodrac.eot?") format("eot"),url("Bloodrac.woff") format("woff"),url("Bloodrac.ttf") format("truetype"),url("Bloodrac.svg#BloodOfDracula") format("svg");font-weight:normal;font-style:normal;}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Helvetica;
+    font-size:13px;
+    background-color:#8B0000;
+    margin:0;
+    padding-bottom:50px;
+}
+body img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 500px;
+    max-width: 800px;
+}
+.texto {
+    margin-top: 50px;
+    height: 150px;
+    width: 600px;
+    box-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.texto h3{
+    font-style: italic;
+    font-family: Blood;
+    font-size: 50px;
+    color: white;
+}
+.container {
+    max-width:1040px;
+    margin:auto;
+}
+
+header {
+    background-color:#B22222;
+    height:150px;
+    box-shadow: 0px 0px 4px #333;
+    position:relative;
+    z-index:99;
+}
+header .container {
+    display:flex;
+    height:inherit;
+    justify-content: center;
+    align-items: center;
+}
+header img {
+    height:140px;
+}
+header a {
+    display: flex;
+}
+
+form {
+    max-width:400px;
+    margin: auto;
+    background-color: #A9A9A9;
+    border:1px solid #c9cacc;
+    border-radius:5px;
+    padding:20px;
+    margin-top:50px;
+}
+form label {
+    display: block;
+}
+form input {
+    display: block;
+}
+form .input {
+    font-size:15px;
+    height:40px;
+    width: 100%;
+    outline: 0;
+    border:0;
+    background-color:#EEE;
+    border-radius:10px;
+    padding:15px;
+    margin-bottom:10px;
+}
+form .input:focus {
+    background-color:#DDD;
+}
+form .button {
+    border:0;
+    padding:10px 20px;
+    background-color:#1C1C1C;
+    border-radius:10px;
+    color:#FFF;
+    font-size:15px;
+    margin-bottom:10px;
+    cursor:pointer;
+    box-shadow:0px 0px 3px #999;
+}
+form .button:hover {
+    background-color:#B22222;
+}
+form a {
+    text-decoration:none;
+    color:#4a76a8;
+}
